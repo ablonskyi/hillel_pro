@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пуста сторінка</title>
+    <title>Hello</title>
 </head>
 <body>
-    
+    <script>
+        let name = prompt("What's your name?")
+        let feel = confirm(`Hello ${name}!\nAre you feeling good?`)
+        if (feel == true){
+            alert(`Great ${name}!\nGlad to hear this!`)
+        }else{
+            alert(`Ough!\nIt's sad to hear that.\nHopefully, it won't be for long.`)
+        }
+    </script>
 </body>
 </html>
